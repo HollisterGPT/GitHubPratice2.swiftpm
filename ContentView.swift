@@ -16,5 +16,19 @@ struct ContentView: View {
                 .padding()
         }
         Text("Answer:\(answer)")
+        
+        VStack{
+            Button{
+                answer = number1 + number2
+            } label: {
+                ZStack{
+                    Circle()
+                        .frame(width: 45, height: 45)
+                        .foregroundStyle(.white)
+                    Text("+")
+                        .font(.largeTitle)
+                }
+            }
+        }
     }
 }

@@ -8,9 +8,10 @@ struct ContentView: View {
         TextField("0", value: $number1, format: .number)
             .textFieldStyle(.roundedBorder)
             .keyboardType(.numberPad)
-            .padding()    }
-    TextField("0", value: $number2, format: .number)
-        .textFieldStyle(.roundedBorder)
-        .keyboardType(.numberPad)
-        .padding()    }
+            .padding()
+        TextField("0", value: $number2, format: .number)
+            .textFieldStyle(.roundedBorder)
+            .keyboardType(.numberPad)
+            .padding()
+    }
 }

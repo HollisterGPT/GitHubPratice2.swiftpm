@@ -9,4 +9,8 @@ struct ContentView: View {
             .textFieldStyle(.roundedBorder)
             .keyboardType(.numberPad)
             .padding()    }
+    TextField("0", value: $number2, format: .number)
+        .textFieldStyle(.roundedBorder)
+        .keyboardType(.numberPad)
+        .padding()    }
 }
